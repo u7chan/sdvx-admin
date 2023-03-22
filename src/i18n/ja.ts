@@ -1,7 +1,7 @@
-import { TranslationMessages } from 'react-admin'
 import defaultJapanese from '@bicstone/ra-language-japanese'
+import { AppTranslationMessages } from './types'
 
-export const ja: TranslationMessages = {
+export const ja: AppTranslationMessages = {
   ...defaultJapanese,
   ra: {
     ...defaultJapanese.ra,

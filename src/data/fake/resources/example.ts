@@ -1,6 +1,6 @@
-import { Example } from '@/data'
+import { Resource } from '@/data'
 
-export const example: Example[] = [
+export const example: Resource<'example'>[] = [
   {
     id: 1,
     name: 'Jarrett',
