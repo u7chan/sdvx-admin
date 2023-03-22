@@ -1,4 +1,4 @@
-export type Dummy = {
+export type Example = {
   id: number
   name: string
   role: 'admin' | 'consumer'

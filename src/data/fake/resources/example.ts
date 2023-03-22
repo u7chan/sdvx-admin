@@ -1,6 +1,6 @@
-import { Dummy } from '../../types'
+import { Example } from '../../types'
 
-export const dummy: Dummy[] = [
+export const example: Example[] = [
   {
     id: 1,
     name: 'Jarrett',

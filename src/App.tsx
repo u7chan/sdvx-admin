@@ -4,6 +4,6 @@ import './App.css'
 
 export const App = () => (
   <Admin dataProvider={defaultDataProvider}>
-    <Resource name='dummy' list={ListGuesser} />
+    <Resource name='example' list={ListGuesser} />
   </Admin>
 )

@@ -1,8 +1,8 @@
 import { RaRecord } from 'react-admin'
-import { dummy } from './dummy'
+import { example } from './example'
 
 const fakeResources: { [key: string]: RaRecord[] } = {
-  dummy,
+  example,
 }
 
 export { fakeResources }
