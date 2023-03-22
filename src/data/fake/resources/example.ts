@@ -1,4 +1,4 @@
-import { Example } from '../../types'
+import { Example } from '@/data'
 
 export const example: Example[] = [
   {
