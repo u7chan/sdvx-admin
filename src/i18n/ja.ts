@@ -1,7 +1,7 @@
 import defaultJapanese from '@bicstone/ra-language-japanese'
-import { AppTranslationMessages } from './types'
+import { RaAppTranslationMessages } from './types'
 
-export const ja: AppTranslationMessages = {
+export const ja: RaAppTranslationMessages = {
   ...defaultJapanese,
   ra: {
     ...defaultJapanese.ra,

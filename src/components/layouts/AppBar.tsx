@@ -8,6 +8,7 @@ import {
 } from 'react-admin'
 import { Typography } from '@mui/material'
 import { AccountCircle } from '@mui/icons-material'
+import { I18nString } from '@/i18n/types'
 
 const UserMenu: FC = () => {
   return (
@@ -26,7 +27,7 @@ const UserMenu: FC = () => {
   )
 }
 
-export const AppBar: FC<{ title: string }> = ({ title, ...rest }) => {
+export const AppBar: FC<{ title: I18nString }> = ({ title, ...rest }) => {
   const translate = useTranslate()
   return (
     <RaAppBar {...rest} color='secondary' userMenu={<UserMenu />}>
