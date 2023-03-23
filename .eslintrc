@@ -1,5 +1,10 @@
 {
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "extends": [
+    "airbnb",
+    "airbnb-typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
@@ -8,7 +13,10 @@
   ],
   "rules": {
     "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }]
   },
   "settings": {
     "react": {

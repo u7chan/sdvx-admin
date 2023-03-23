@@ -2,7 +2,8 @@ import { FC } from 'react'
 import { Typography } from '@mui/material'
 
 export const Footer: FC<{ title: string }> = ({ title }) => {
-  return title !== '' ? (
+  if (title === '') return null
+  return (
     <Typography
       style={{
         fontSize: '0.8rem',
@@ -18,10 +19,8 @@ export const Footer: FC<{ title: string }> = ({ title }) => {
       }}
     >
       <strong>
-        (c) {new Date().getFullYear()} {title}
+        `(c) ${new Date().getFullYear()} ${title}`
       </strong>
     </Typography>
-  ) : (
-    <></>
   )
 }
