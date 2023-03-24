@@ -29,7 +29,15 @@ export const AppBar: FC<{ title: I18nString }> = ({ title }) => {
   const translate = useTranslate()
   return (
     <RaAppBar color='secondary' userMenu={<UserMenu />}>
-      <Typography variant='h6' color='inherit' className={RaAppBarClasses.title}>
+      <Typography
+        flex='1'
+        textOverflow='ellipsis'
+        whiteSpace='nowrap'
+        overflow='hidden'
+        variant='h6'
+        color='inherit'
+        className={RaAppBarClasses.title}
+      >
         {translate(title)}
       </Typography>
     </RaAppBar>
