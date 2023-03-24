@@ -964,9 +964,9 @@
     fastq "^1.6.0"
 
 "@popperjs/core@^2.11.6":
-  version "2.11.6"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
-  integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
+  version "2.11.7"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.7.tgz#ccab5c8f7dc557a52ca3288c10075c9ccd37fff7"
+  integrity sha512-Cr4OjIkipTtcXKjAsm8agyleBuDHvxzeBoa1v543lbv1YaIwQjESsVcmjiWiPEbC1FIeHOG/Op9kdCmAmiS3Kw==
 
 "@remix-run/router@1.4.0":
   version "1.4.0"
@@ -1276,9 +1276,9 @@
     csstype "^3.0.2"
 
 "@types/scheduler@*":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
-  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+  version "0.16.3"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.3.tgz#cef09e3ec9af1d63d2a6cc5b383a737e24e6dcf5"
+  integrity sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==
 
 "@types/semver@^7.3.12":
   version "7.3.13"
@@ -4269,7 +4269,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ra-core@>=4.0.0-alpha.2, ra-core@^4.8.4:
+ra-core@>=4.0.0-alpha.2:
   version "4.8.4"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.8.4.tgz#eca7e0c6e077e41918196032a9633c186f708a0c"
   integrity sha512-OVyE4DGngIzfyh8Aj9ohv0uE1KMb+L0kxA/mvODAXkd9aucmRzj7MYKMUbcn/f5PX28raZ+wwZdPqiXVaZZcJQ==
@@ -4285,32 +4285,48 @@ ra-core@>=4.0.0-alpha.2, ra-core@^4.8.4:
     react-is "^17.0.2"
     react-query "^3.32.1"
 
+ra-core@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.9.0.tgz#763d7f2eb2696ea6f27c4e1d33c4eb29646b34af"
+  integrity sha512-H+/AFZWx69J5ONPLOth8Rz8l379Dgpms5Tnn3XQSBldAqLPAre5B1wAkgaO9l9huE92Yoa/jo9EXidWN67UmEQ==
+  dependencies:
+    clsx "^1.1.1"
+    date-fns "^2.19.0"
+    eventemitter3 "^4.0.7"
+    inflection "~1.12.0"
+    jsonexport "^3.2.0"
+    lodash "~4.17.5"
+    prop-types "^15.6.1"
+    query-string "^7.1.1"
+    react-is "^17.0.2"
+    react-query "^3.32.1"
+
 ra-data-fakerest@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-4.8.4.tgz#88ab01de288d16930ba0c64724737f74935ef328"
-  integrity sha512-nBd3dizUJ84Y67NT3KdufKMH/kik43yitWJANFxx1+UBz4O686b02mrByfv/+kuivQ7v6JKJ1uB2uTGPbQubgw==
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-4.9.0.tgz#6b9242473d990e4e2e38bf45782f143ddc9e00b8"
+  integrity sha512-9ULiQ3MpSJFXmH6ajuDxN3VofeOErJxDswhlNg9mD5BzUhH5hOyzspGYZRCI+I5ls4Wj5tbG07PU8l1CAGsE2A==
   dependencies:
     fakerest "^3.0.0"
 
-ra-i18n-polyglot@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.8.4.tgz#320092932e7192ffbb95f603607c291ef9108176"
-  integrity sha512-7Y5vs7SL3p/GA4jU5wKvNcRM2x+9yG1k7Rg3qQUP6/BpLUqMt2s4UsC2jQXlzNmKw5z9BpzdM8/oZ2w/3xwXAQ==
+ra-i18n-polyglot@^4.8.4, ra-i18n-polyglot@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.9.0.tgz#4b36639b514299d9b705ce3eab1ee7ee2d45c917"
+  integrity sha512-Y60ZGggCoipLz0+N8rkkaUkI2iWhANVR4YVq6x1zQA87tjShCmGHsAax9kbJrCzZ4o4GytVrF93KRVcJTAZw0A==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^4.8.4"
+    ra-core "^4.9.0"
 
-ra-language-english@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.8.4.tgz#e6b4c9a477b6eb9c52fa617c68966d7ae9f444a7"
-  integrity sha512-925RBUG90Bn+VKeOdGUO1bWQ6I+ULDGQVh1enY1P3RzmR0cZLlxBLV9/E/MKQ6NSasW5fmy4BPbJsDqyfHXTKw==
+ra-language-english@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.9.0.tgz#a88e9fcaec4a41d6861113a6c248c5670379bf2f"
+  integrity sha512-rd/FMtsmmhY7cV5s3J81gU/CS+93d+NBEhMmjM5m3axgp+VHPNkig7cSmxsVyui5jY+de7zCF21ka1ZgpTuldg==
   dependencies:
-    ra-core "^4.8.4"
+    ra-core "^4.9.0"
 
-ra-ui-materialui@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.8.4.tgz#e633ca4ed75c2eac317d13dbbdd38eb2b72bf919"
-  integrity sha512-VM72NcvSu2eJScgBet7AjibSOopaKYkxsIjMB6E6te9gPjLDZO9g1ERb59e6UflX5n8jvr9r9e3hMfMft32uCw==
+ra-ui-materialui@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.9.0.tgz#97a404389c1164f2acd7a83e6359774bba614f67"
+  integrity sha512-5lWtRPHnJejh4IfVF4JoGHOvo8NiL3VF0PKkMX4q5iQZwbQH1eg5epCFtHhhdz/DeYmtONM9QOsu79uzGePg9A==
   dependencies:
     autosuggest-highlight "^3.1.1"
     clsx "^1.1.1"
@@ -4327,19 +4343,19 @@ ra-ui-materialui@^4.8.4:
     react-transition-group "^4.4.1"
 
 react-admin@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.8.4.tgz#02111d1f0ea96a34f03cf02dc0c1100283ef486f"
-  integrity sha512-hnPGnlhr7LN/4hdYBAUcpbJs/jj4kXcTk9fyX/otr71jMC7/dKVoQBE/lkkb8Hj8Oh0QmX2gNRCHzMFj6RhQTg==
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.9.0.tgz#da8be76a527c506f71259a2858c58d01c0443d3e"
+  integrity sha512-h7JI/zVZObXEU0z2+KPM7PXbmNkl2VczfpXnbMK1m3UJ5T1KdJml3xOp0phYHNV30DjJV9tqiwOkQ9t3cNMviw==
   dependencies:
     "@emotion/react" "^11.4.1"
     "@emotion/styled" "^11.3.0"
     "@mui/icons-material" "^5.0.1"
     "@mui/material" "^5.0.2"
     history "^5.1.0"
-    ra-core "^4.8.4"
-    ra-i18n-polyglot "^4.8.4"
-    ra-language-english "^4.8.4"
-    ra-ui-materialui "^4.8.4"
+    ra-core "^4.9.0"
+    ra-i18n-polyglot "^4.9.0"
+    ra-language-english "^4.9.0"
+    ra-ui-materialui "^4.9.0"
     react-hook-form "^7.40.0"
     react-router "^6.1.0"
     react-router-dom "^6.1.0"
