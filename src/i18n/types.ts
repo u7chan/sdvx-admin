@@ -7,6 +7,7 @@ type AppTranslationMessages = {
   }
   resources: {
     example: ResourceMessage<'example'>
+    musicMaster: ResourceMessage<'musicMaster'>
   }
 }
 

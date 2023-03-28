@@ -26,5 +26,17 @@ export const ja: RaAppTranslationMessages = {
         lastUpdated: '最終更新日',
       },
     },
+    musicMaster: {
+      name: '曲マスタ',
+      fields: {
+        id: 'ID',
+        title: '曲名',
+        artist: 'アーティスト',
+        tags: 'タグ',
+        pack: '収録パック',
+        platforms: 'プラットフォーム',
+        difficulties: '難易度',
+      },
+    },
   },
 }
