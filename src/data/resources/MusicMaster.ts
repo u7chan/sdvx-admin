@@ -10,8 +10,8 @@ export type MusicMaster = {
   id: number
   title: string
   artist: string
-  tags: string[]
+  tags: { name: string }[]
   pack: string
-  platforms: Platform[]
+  platforms: { name: Platform }[]
   difficulties: Difficulty[]
 }

@@ -5,9 +5,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 1,
     title: 'アガット',
     artist: 'Bazole',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -35,9 +43,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 2,
     title: 'Welcome to the Mosh Pit',
     artist: 'lapix',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -65,9 +81,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 3,
     title: '[E]',
     artist: 'dj MAX STEROID',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -95,9 +119,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 4,
     title: '少年リップルズ',
     artist: '常盤ゆう',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -125,9 +157,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 5,
     title: '過去を喰らう',
     artist: '花譜',
-    tags: ['その他'],
+    tags: [
+      {
+        name: 'その他',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 4,
@@ -155,9 +195,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 6,
     title: '食虫植物',
     artist: '理芽',
-    tags: ['その他'],
+    tags: [
+      {
+        name: 'その他',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 2,
@@ -185,9 +233,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 7,
     title: 'フォニイ',
     artist: 'ツミキ feat.可不',
-    tags: ['その他'],
+    tags: [
+      {
+        name: 'その他',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 3,
@@ -215,9 +271,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 8,
     title: 'Glory of Fighters',
     artist: 'RoughSkreamZ',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -245,9 +309,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 9,
     title: 'All We Need is HAPPY END!!!',
     artist: 'polysha',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -275,9 +347,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 10,
     title: 'Tickled Pink',
     artist: 'BEMANI Sound Team "ZAQUVA"',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -305,9 +385,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 11,
     title: 'DEUX EX MĀXHINĀ',
     artist: 'Ashrount',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -335,9 +423,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 12,
     title: 'MILITARY R04D',
     artist: 'Enterskip',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -365,9 +461,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 13,
     title: '禊',
     artist: 'Nhato',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -395,9 +499,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 14,
     title: '恋愛＝精度×認識力',
     artist: '立秋 vs. BEMANI Sound Team "L.E.D.-G" feat.ちょこ＆ななひら',
-    tags: ['BEMANI', 'SDVXオリジナル'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -425,9 +540,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 15,
     title: '儚キ戀ノ幻想譚',
     artist: 'まろん feat. あやぽんず＊ (森羅万象)',
-    tags: ['BEMANI'],
+    tags: [
+      {
+        name: 'BEMANI',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -455,9 +578,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 16,
     title: 'Thousand Triggers',
     artist: 'めと（Metomate）',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -485,9 +616,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 17,
     title: 'trea→journey',
     artist: 'CHUBAY',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -515,9 +654,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 18,
     title: 'イグノアザーズ',
     artist: 'U-ske feat. 安土桃',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -545,9 +692,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 19,
     title: 'Paradigm Shift',
     artist: 'あまみ×ひなみ',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -575,9 +730,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 20,
     title: 'Fl0ating:',
     artist: 'yuichi NAGAO',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -605,9 +768,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 21,
     title: 'Petit espoir',
     artist: 'しーけー',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -635,9 +806,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 22,
     title: '最果ての勇者にラブソングを',
     artist: 'deli.+駄々子',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -665,9 +844,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 23,
     title: '灼ナル刃、破カヰ譜',
     artist: 'Symholic feat.狛茉璃奈',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -695,9 +882,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 24,
     title: 'Initiating League',
     artist: 'EmoCosine vs. nora2r',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -725,9 +920,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 25,
     title: 'Scat Jazz Dance',
     artist: 'Super Shrimp',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -755,9 +958,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 26,
     title: 'Ice Fortress',
     artist: '荒谷サトル',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -785,9 +996,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 27,
     title: 'graduation',
     artist: '星野音楽工房',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -815,9 +1034,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 28,
     title: 'シル・ヴ・プレジデント',
     artist: 'P丸様。',
-    tags: ['その他'],
+    tags: [
+      {
+        name: 'その他',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 2,
@@ -845,9 +1072,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 29,
     title: 'MURASAME',
     artist: 'Hommarju',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -875,9 +1110,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 30,
     title: 'ENDGAME',
     artist: 'Yuta Imai',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -905,9 +1148,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 31,
     title: 'ИADIR',
     artist: 'Ashrount vs polysha',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -935,9 +1186,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 32,
     title: 'WINNING ROAD',
     artist: 'setu-O',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -965,9 +1224,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 33,
     title: 'Chat perché',
     artist: 'Ange;art + Nota',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -995,9 +1262,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 34,
     title: 'グッバイ宣言',
     artist: 'Chinozo',
-    tags: ['ボーカロイド'],
+    tags: [
+      {
+        name: 'ボーカロイド',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 2,
@@ -1025,9 +1300,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 35,
     title: '透明声彩',
     artist: 'YuNi',
-    tags: ['その他'],
+    tags: [
+      {
+        name: 'その他',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 3,
@@ -1055,9 +1338,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 36,
     title: '神罰',
     artist: 'cosMo＠暴走P',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1085,9 +1376,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 37,
     title: 'Never Ending Future',
     artist: '#EmoCosine',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1115,9 +1414,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 38,
     title: 'Hydroblast',
     artist: 'Aoi vs. siromaru',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1145,9 +1452,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 39,
     title: 'Μοῦσα',
     artist: 'ushiee',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1175,9 +1490,17 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 40,
     title: 'Re:call',
     artist: 'pan+meal feat.駄々子',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: '',
-    platforms: ['arcade'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1205,9 +1528,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 41,
     title: 'I Left for my Right',
     artist: 'あの日字数制限に負けて追い出された「ゃ」',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1235,9 +1569,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 42,
     title: 'Avalanx',
     artist: '隣の庭は青い(庭師+Aoi)',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -1265,9 +1610,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 43,
     title: 'Across the Starlight',
     artist: 'かゆき',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1295,9 +1651,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 44,
     title: 'いまきみに',
     artist: 'Silentroom as "少年R"',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 8,
@@ -1325,9 +1692,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 45,
     title: 'Imperator',
     artist: 'Xe (αirlemoneX)',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1355,9 +1733,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 46,
     title: '運命超過乃巡合',
     artist: 'Aoi feat. Gra+yanshu',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1385,9 +1774,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 47,
     title: 'ancient garden',
     artist: 'Cororo',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 4,
@@ -1410,9 +1813,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 48,
     title: 'ØƵ',
     artist: 'Hommarju ft. Mayumi Morinaga',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1440,9 +1854,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 49,
     title: '赫焉',
     artist: '打打だいず vs. siromaru',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -1470,9 +1895,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 50,
     title: '極夜、暁を望んで',
     artist: 'めと(Metomate)',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1500,9 +1936,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 51,
     title: 'QUAKE',
     artist: 'Polyphonix',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 4,
@@ -1530,9 +1977,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 52,
     title: 'Clash of swords',
     artist: 'Noah',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1555,9 +2016,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 53,
     title: 'Grandeur',
     artist: 'CANVAS x RoughSketch feat. Quimär',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1585,9 +2057,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 54,
     title: '光風霽月',
     artist: '影虎。',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1615,9 +2098,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 55,
     title: 'Corrupting Wonderland',
     artist: 'u-z feat.CHERICa',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1645,9 +2139,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 56,
     title: 'Continuous Moment',
     artist: '影虎。',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1675,9 +2180,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 57,
     title: 'サクラノソバニ！',
     artist: 'Ray_Oh feat.みかん汁',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1705,9 +2221,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 58,
     title: 'SHARK ATTACK',
     artist: 'ryhki',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1735,9 +2262,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 59,
     title: 'S1CK_F41RY',
     artist: 'HOUJIROU',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1760,9 +2301,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 60,
     title: '紫焔双穿',
     artist: 'かめりあ',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -1790,9 +2342,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 61,
     title: '神罰',
     artist: 'cosMo＠暴走P',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1820,9 +2383,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 62,
     title: 'STIGMA',
     artist: 'U-ske feat. 棗いつき',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1850,9 +2424,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 63,
     title: 'Stairway to the sun',
     artist: 'Noah',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1880,9 +2465,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 64,
     title: 'Struggle for Revival',
     artist: 'NitoK',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -1910,9 +2506,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 65,
     title: 'すべてが幻になった後で',
     artist: 'かめりあ・超機装幻楽隊',
-    tags: ['SDVXオリジナル'],
+    tags: [
+      {
+        name: 'SDVXオリジナル',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 7,
@@ -1940,9 +2547,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 66,
     title: 'Zero-Day Exploit',
     artist: 'Trerey-U',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -1965,9 +2583,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 67,
     title: 'charm♡you',
     artist: 'U-ske feat.花柚',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 4,
@@ -1995,9 +2624,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 68,
     title: 'Chakra',
     artist: 'uma',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 4,
@@ -2025,9 +2665,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 69,
     title: 'チクサクコールが懐かしい',
     artist: '諸星なな feat.加藤はるか',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2055,9 +2706,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 70,
     title: 'Twin Rocket',
     artist: 'uno feat.ちよこ(IOSYS)',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2080,9 +2742,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 71,
     title: 'Discloze',
     artist: 'lapix',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2105,9 +2778,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 72,
     title: 'Deadly Dolly Dance',
     artist: 'Shiron',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -2130,9 +2817,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 73,
     title: 'Twinkle Rookie',
     artist: 'Halv',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -2160,9 +2858,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 74,
     title: '常夏！！クリスタライズ・シャーベット',
     artist: 'Ayatsugu_Otowa',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2185,9 +2897,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 75,
     title: '涙の女神と無形のエトワル',
     artist: 'Yu-dachi',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -2215,9 +2938,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 76,
     title: '二分間の世界',
     artist: 'Cororo',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -2245,9 +2979,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 77,
     title: 'NEON LOVE♥POTION!!!',
     artist: 'パイタン',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2275,9 +3020,23 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 78,
     title: 'NECRO PARTY',
     artist: 'VALLEYSTONE vs udouddo',
-    tags: ['東方アレンジ', 'FLOOR'],
+    tags: [
+      {
+        name: '東方アレンジ',
+      },
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 5,
@@ -2300,9 +3059,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 79,
     title: 'Never Ending Future',
     artist: '#EmoCosine',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
@@ -2330,9 +3100,20 @@ export const musicMaster: Resource<'musicMaster'>[] = [
     id: 80,
     title: 'NOT YOUR IDOL',
     artist: 'Yuta Imai',
-    tags: ['FLOOR'],
+    tags: [
+      {
+        name: 'FLOOR',
+      },
+    ],
     pack: 'コナステ版 SOUND VOLTEX 楽曲パック vol.19',
-    platforms: ['arcade', 'eacloud'],
+    platforms: [
+      {
+        name: 'arcade',
+      },
+      {
+        name: 'eacloud',
+      },
+    ],
     difficulties: [
       {
         level: 6,
