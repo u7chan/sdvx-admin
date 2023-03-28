@@ -1,7 +1,9 @@
 import { Example } from './Example'
+import { MusicMaster } from './MusicMaster'
 
 type Resources = {
   example: Example
+  musicMaster: MusicMaster
 }
 
 export type ResourceName = keyof Resources
